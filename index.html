@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Social Media Downloader</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background-color: #0a0a23; color: white; padding: 10px 20px; display: flex; align-items: center; }
+        header .logo { font-size: 20px; font-weight: bold; margin-right: auto; }
+        header nav a { color: white; margin: 0 10px; text-decoration: none; }
+        main { text-align: center; padding: 40px 20px; }
+        .hero-title { font-size: 32px; margin-bottom: 10px; }
+        .hero-subtitle { font-size: 18px; color: #666; margin-bottom: 20px; }
+        .search-box { max-width: 600px; margin: 0 auto; display: flex; }
+        .search-box input[type='text'] { flex-grow: 1; padding: 10px; border: 1px solid #ccc; border-radius: 4px 0 0 4px; }
+        .search-box button { padding: 10px 20px; border: none; background-color: #28a745; color: white; border-radius: 0 4px 4px 0; cursor: pointer; }
+        .steps { display: flex; flex-wrap: wrap; justify-content: center; margin-top: 40px; }
+        .step { flex: 1 1 300px; padding: 20px; margin: 10px; border-radius: 8px; color: white; }
+        .step h3 { margin-top: 0; }
+        .step.copy { background: linear-gradient(135deg, #0e67ca, #5b9bff); }
+        .step.paste { background: linear-gradient(135deg, #f65757, #ff9478); }
+        .step.download { background: linear-gradient(135deg, #49c177, #90e883); }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">MyDownloader</div>
+        <nav>
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">Pinterest</a>
+            <a href="#">X</a>
+            <a href="#">TikTok</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">Tumblr</a>
+            <a href="#">Twitch</a>
+        </nav>
+    </header>
+    <main>
+        <h1 class="hero-title">Social Media Video Downloader</h1>
+        <p class="hero-subtitle">Fastest Online Video Downloader Tool</p>
+        <div class="search-box">
+            <input type="text" placeholder="Paste a video URL">
+            <button>Download</button>
+        </div>
+        <div class="steps">
+            <div class="step copy">
+                <h3>1. Copy Link</h3>
+                <p>First copy the link of the video/photo you want to download.</p>
+            </div>
+            <div class="step paste">
+                <h3>2. Paste Link</h3>
+                <p>Paste the link above in the video downloading tool.</p>
+            </div>
+            <div class="step download">
+                <h3>3. Download</h3>
+                <p>Click the download button to get your video.</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
